@@ -1,0 +1,28 @@
+.text21 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button-04,
+.button-base16 {
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+}
+.button-base16 {
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.button-04 {
+  position: relative;
+  width: 100%;
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-sm-medium-size);
+  color: var(--gray-500);
+  font-family: var(--header-h2);
+}
